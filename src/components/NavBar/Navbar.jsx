@@ -36,7 +36,11 @@ const Navbar = () => {
             <li><Link className="dropdown-item" to="/players/RCB">RCB</Link></li>
             
           </ul>
+          </li>
+        <li className="nav-item">
+          <Link className="nav-link" aria-current="page" to="/schedule">Schedule</Link>
         </li>
+       
         <li className="nav-item">
           <Link className="nav-link" aria-current="page" to="/about">About</Link>
         </li>

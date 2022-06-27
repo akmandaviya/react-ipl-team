@@ -4,6 +4,7 @@ import Navbar from './components/NavBar/Navbar'
 import Players from './components/PlayerPage/Players'
 import About from './components/About/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Schedule from './components/Schedule/Schedule'
 
 export class App extends Component {
   render() {
@@ -15,9 +16,11 @@ export class App extends Component {
         <Route exact path='/' element={<Teams/>}/>
         <Route  path='/players/:team' element={<Players/>}/>
         <Route exact path='/about' element={<About/>}/>
-        {/* <Route exact path='/' element=""/> */}
+        <Route exact path='/schedule' element={<Schedule/>}/>
+       
        </Routes>
       </BrowserRouter>
+      
     )
   }
 }

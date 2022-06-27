@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState}from "react";
 import "./Players.css";
 import Card from "../Card/Card";
 import Extra from "../OtherPlayer/Extra";
@@ -7,10 +7,16 @@ import { useParams } from "react-router";
 
 
 const Players = (props) => {
+
   const {team} = useParams()
+
+  
+  
   const currTeam = teamPlayer[team]
   return (
     <div className="players-page">
+  
+  
       <ul className="player-container">
         {currTeam.player.map((data,index) => {
           if (index < 11) {
@@ -48,6 +54,9 @@ const Players = (props) => {
           }
         })}
       </ul>
+     
+
+
     </div>
   );
 };
