@@ -1,12 +1,13 @@
 import React from "react";
 import IPL from "../Assets/about.png";
+import './About.css';
 
 const About = () => {
   return (
     <div>
-        <img src= {IPL} alt=""/>
-       <h1>Indian Premier League</h1>
-       <p>
+        <img className="brand-logo" src= {IPL} alt=""/>
+       <h1 className="heading">Indian Premier League</h1>
+       <p className="content">
         The Indian Premier League (IPL), also officially known as TATA IPL for
         sponsorship reasons is a professional men's Twenty20 cricket league,
         contested by ten teams based out of seven Indian cities and three Indian

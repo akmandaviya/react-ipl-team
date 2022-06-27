@@ -9,7 +9,7 @@ export class App extends Component {
       <div>
        <Navbar/>
         <Teams/>
-        {/* <About/> */}
+        <About/>
       </div>
     )
   }
