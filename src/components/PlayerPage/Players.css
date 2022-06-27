@@ -1,0 +1,41 @@
+.players-page {
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 70vw 30vw;
+}
+
+.player-container::-webkit-scrollbar,
+.extra-player-container::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.player-container::-webkit-scrollbar-track,
+.extra-player-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.player-container::-webkit-scrollbar-thumb,
+.extra-player-container::-webkit-scrollbar-thumb {
+  background: #3f3f3f;
+}
+
+.player-container {
+  height: 100%;
+  overflow: scroll;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-right: 1px solid black;
+}
+
+.extra-player-container {
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}

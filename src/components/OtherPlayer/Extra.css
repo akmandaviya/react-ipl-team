@@ -1,0 +1,23 @@
+.extra-player-card {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.player-image img {
+  width: 200px;
+  height: 200px;
+}
+
+.player-info {
+  padding-right: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.player-info .item {
+  display: flex;
+  justify-content: space-between;
+}

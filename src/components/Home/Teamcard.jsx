@@ -1,11 +1,12 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-const Card = (props) => {   
+const Teamcard = (props) => {   
   return (
     
     <div className='team-card' key= {props.cardKEY} style={{background: props.background , 
           border: props.border, borderRadius:"15px", padding:"12px", margin: "1rem 0", cursor:"pointer"}}>
-        <a className='w-100' style={{textDecoration:"none"}} >
+        <Link className='w-100' style={{textDecoration:"none"}} to = {props.path} >
             <div className='d-flex flex-wrap justify-content-center flex-column  align-items-center text-center' style={{width:"270px"}}>
                  <div className='team-logo' style={{height:"158px", width:"158px"}}>
                      
@@ -19,10 +20,10 @@ const Card = (props) => {
                        </div>
                  </div>
             </div>
-        </a>
+        </Link>
     </div>
    
   )
 }
 
-export default Card
+export default Teamcard

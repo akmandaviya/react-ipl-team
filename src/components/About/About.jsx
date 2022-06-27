@@ -1,5 +1,5 @@
 import React from "react";
-import IPL from "../Assets/about.png";
+import IPL from "../../Assets/about.png";
 import './About.css';
 
 const About = () => {

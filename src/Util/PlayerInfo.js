@@ -1,5 +1,5 @@
-const teamPalyer = [
-  {
+const teamPlayer = {
+  GT:{  
     teamCode: "GT",
     teamColor: "linear-gradient(180deg, #1C1C1C 0%, #0B4973 100%)",
     player: [
@@ -122,15 +122,7 @@ const teamPalyer = [
         run: "20",
         matches: "12",
       },
-      {
-        id: "GT13",
-        playerName: "Gurukeerat Mann Singh",
-        profile: "https://assets.iplt20.com/ipl/IPLHeadshot2022/253.png",
-        role: "Batter",
-        wickets: "5",
-        run: "511",
-        matches: "41",
-      },
+  
       {
         id: "GT14",
         playerName: "Lockie Ferguson",
@@ -152,7 +144,7 @@ const teamPalyer = [
     ],
   },
 
-  {
+  CSK:{
     teamCode: "CSK",
     teamColor: "linear-gradient(180deg, #FCCA06 0%, #F25C19 100%)",
     player: [
@@ -275,7 +267,7 @@ const teamPalyer = [
       },
       {
         id: "CSK14",
-        playerName: "DWaine Pretorius",
+        playerName: "Dwaine Pretorius",
         profile: "https://assets.iplt20.com/ipl/IPLHeadshot2022/20573.png",
         role: "Bowler",
         wickets: "6",
@@ -294,7 +286,7 @@ const teamPalyer = [
     ],
   },
 
-  {
+  DC: {
     teamCode: "DC", 
     teamColor: "linear-gradient(180deg, #0078BC 0%, #17479E 100%)",
     player: [
@@ -435,7 +427,7 @@ const teamPalyer = [
       },
     ],
   },
-  {
+  KKR:{
     teamCode: "KKR",
     teamColor: "linear-gradient(180deg, #3B215D 0%, #552792 100%)",
     player: [
@@ -576,7 +568,7 @@ const teamPalyer = [
       },
     ],
   },
-  {
+  LSG:{
     teamCode: "LSG",
     teamColor:"linear-gradient(180deg, #A72056 0%, #FFCC00 100%)",
     player:[
@@ -717,7 +709,7 @@ const teamPalyer = [
         },
     ]
   },
-  {
+ MI: {
     teamCode: "MI",
     teamColor:"linear-gradient(180deg, #006CB7 0%, #003B7A 100%)",
     player:[
@@ -858,9 +850,9 @@ const teamPalyer = [
         }, 
     ]
   },
-  {
+  PBKS:{
     teamCode: "PBKS",
-    teamColor: "inear-gradient(180deg, #D71920 0%, #84171B 100%)",
+    teamColor: "linear-gradient(180deg, #D71920 0%, #84171B 100%)",
     player:[
         {
             id: "PBKS01",
@@ -1000,7 +992,7 @@ const teamPalyer = [
        
     ]
   },
-  {
+  RR: {
     teamCode: "RR",
     teamColor: " linear-gradient(180deg, #EA1A85 0%, #001D48 100%)",
     player:[
@@ -1141,7 +1133,7 @@ const teamPalyer = [
         },
     ]
   },
-  {
+  RCB: {
     teamCode: "RCB",
     teamColor: "linear-gradient(180deg, #6A6A6A 0%, #1C1C1C 100%)",
     player:[
@@ -1283,7 +1275,7 @@ const teamPalyer = [
         },
     ]
   },
-  {
+  SRH:{
     teamCode: "SRH",
     teamColor:"linear-gradient(180deg, #F26522 0%, #ED1A37 100%)",
     player:[
@@ -1424,4 +1416,6 @@ const teamPalyer = [
         },
     ]
   }
-];
+};
+
+export default teamPlayer 

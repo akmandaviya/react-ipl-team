@@ -1,0 +1,36 @@
+li {
+  list-style: none;
+}
+
+.player-container .card {
+  border-radius: 10px;
+  padding: 1rem;
+  padding-bottom: 0 !important;
+  display: grid;
+  grid-template-columns: 39% 59%;
+  text-align: center;
+  color: #fff;
+}
+
+.p-image img {
+  width: 273px;
+  height: 250px;
+}
+
+.p-info {
+  margin-top: 0.7rem;
+}
+
+.p-info .name {
+  padding: 4px;
+  background: linear-gradient(180deg, #0078bc 0, #17479e 100%);
+  font-size: 18px;
+  padding: 4px 0;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.p-info .item {
+  margin: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
